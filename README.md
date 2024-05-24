@@ -33,5 +33,24 @@ npm start
 
 By default the LLM used is llama3. See installation instructions here https://github.com/ollama/ollama
 
-If you want to use OpenAI API, provide OPENAI_API_KEY in ./backend/.env file.
-Uncomment the lines in ./backend/chatbot.js
+If you want to use OpenAI API, provide `OPENAI_API_KEY` in `./backend/.env` file.
+Uncomment the lines in `./backend/chatbot.js`
+
+## Dataset 
+
+About Dataset
+Description of the features in dataset:
+
+work_year: The year in which the salary data was collected (e.g., 2024).
+experience_level: The level of experience of the employee (e.g., MI for Mid-Level).
+employment_type: The type of employment (e.g., FT for Full-Time).
+job_title: The title of the job (e.g., Data Scientist).
+salary: The salary amount.
+salary_currency: The currency in which the salary is denominated (e.g., USD for US Dollars).
+salary_in_usd: The salary amount converted to US Dollars.
+employee_residence: The country of residence of the employee (e.g., AU for Australia).
+remote_ratio: The ratio indicating the level of remote work (0 for no remote work).
+company_location: The location of the company (e.g., AU for Australia).
+company_size: The size of the company (e.g., S for Small).
+
+https://www.kaggle.com/datasets/chopper53/machine-learning-engineer-salary-in-2024
