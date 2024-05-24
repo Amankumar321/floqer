@@ -4,6 +4,15 @@ Analyse ML Engineer salaries from 2020 to 2024 using tables and chart. Includes 
 
 Live - https://floqer-assigment.netlify.app
 
+## Technologies
+
+- React.js
+- Node.js
+- Express.js
+- Langchain
+- Ant Design
+- Chart.js
+
 ## Frontend
 
 Start the frontend
