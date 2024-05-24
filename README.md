@@ -2,6 +2,8 @@
 
 Analyse ML Engineer salaries from 2020 to 2024 using tables and chart. Includes an AI chat assitant that creates the best response based on business knowledge.
 
+Live - https://floqer-assigment.netlify.app
+
 ## Frontend
 
 Start the frontend
