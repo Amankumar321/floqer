@@ -82,3 +82,9 @@ Description of the features in dataset:
 - company_size: The size of the company (e.g., S for Small).
 
 https://www.kaggle.com/datasets/chopper53/machine-learning-engineer-salary-in-2024
+
+## Converting CSV to SQLite Database
+
+I have converted CSV to SQLite database so our LLM can answer analytical questions by generating SQL query. 
+
+`sqlite3 database.db < import.sql`
