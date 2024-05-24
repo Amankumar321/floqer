@@ -36,6 +36,19 @@ By default the LLM used is llama3. See installation instructions here https://gi
 If you want to use OpenAI API, provide `OPENAI_API_KEY` in `./backend/.env` file.
 Uncomment the lines in `./backend/chatbot.js`
 
+```
+//import { ChatOpenAI } from "@langchain/openai";
+import { ChatOllama } from "@langchain/community/chat_models/ollama";
+
+...
+
+//const llm = new ChatOpenAI({ model: "gpt-4", temperature: 0, api_key: process.env.OPENAI_API_KEY });
+const llm = new ChatOllama ({ model: "llama3", baseUrl: "http://localhost:11434"});
+```
+
+## Screenshot
+
+
 ## Dataset 
 
 About Dataset
