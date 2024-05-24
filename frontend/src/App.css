@@ -1,0 +1,19 @@
+th {
+    background-color: #1677ff !important;
+    color: white !important;
+}
+
+td, th {
+    border-color: #dddddd !important;
+}
+
+.ant-table-container {
+    border-color: #dddddd !important;
+}
+
+.container {
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 2px 2px 12px 2px rgb(214, 214, 214);
+}
