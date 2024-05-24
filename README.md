@@ -48,9 +48,9 @@ const llm = new ChatOllama ({ model: "llama3", baseUrl: "http://localhost:11434"
 
 ## Screenshot
 
-![alt text](https://github.com/Amankumar321/floqer/blob/main/demo1.jpg)
-![alt text](https://github.com/Amankumar321/floqer/blob/main/demo2.jpg)
-![alt text](https://github.com/Amankumar321/floqer/blob/main/demo3.jpg)
+![alt text](https://github.com/Amankumar321/floqer/blob/main/demo1.png)
+![alt text](https://github.com/Amankumar321/floqer/blob/main/demo2.png)
+![alt text](https://github.com/Amankumar321/floqer/blob/main/demo3.png)
 
 
 ## Dataset 
